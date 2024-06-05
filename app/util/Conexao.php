@@ -2,7 +2,7 @@
 
 class Conexao 
 {
-    private string $BANCO = 'crud_sem_composer';
+    private string $BANCO = 'crud_simples';
     private string $HOST = 'localhost';
     private string $USER = 'root';
     private string $SENHA = '1234';
