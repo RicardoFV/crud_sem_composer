@@ -8,7 +8,7 @@ use crud;
 
 -- criando a tabela
 
-create table crud_simples
+create table agenda
 (
 	id int  auto_increment not null primary key,
     nome text, 
