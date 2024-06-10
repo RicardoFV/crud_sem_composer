@@ -12,7 +12,7 @@ class Agenda{
     private string $nome;
     private string $telefone;
     private string $email;
-    private string $cidadeOndeMora;
+    private string $estadoRegistro;
     private DateTime $dataRegistro;
     
     /**
@@ -84,21 +84,21 @@ class Agenda{
     }
 
     /**
-     * Get the value of cidadeOndeMora
+     * Get the value of EstadoRegistro
      */ 
-    public function getCidadeOndeMora()
+    public function getEstadoRegistro()
     {
-        return $this->cidadeOndeMora;
+        return $this->estadoRegistro;
     }
 
     /**
-     * Set the value of cidadeOndeMora
+     * Set the value of EstadoRegistro
      *
      * @return  self
      */ 
-    public function setCidadeOndeMora($cidadeOndeMora)
+    public function setEstadoRegistro($estadoRegistro)
     {
-        $this->cidadeOndeMora = $cidadeOndeMora;
+        $this->estadoRegistro = $estadoRegistro;
 
         return $this;
     }

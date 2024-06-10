@@ -14,6 +14,6 @@ create table agenda
     nome text, 
     telefone text,
     email text, 
-    cidade_registro text,
+    estado_registro text,
     data_registro TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP
 );
